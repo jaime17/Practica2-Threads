@@ -16,19 +16,20 @@ public class Practica2 {
      */
         
     public static void main(String[] args) {
-       Vuelta vuelta1 = new Vuelta( new int[] { 2, 2, 1, 5, 2, 3 });
-       Vuelta vuelta2 = new Vuelta(new int[] { 1, 3, 5, 1, 1 });
+       Vuelta relevo1 = new Vuelta( new int[] { 30, 10,});
+       Vuelta relevo2 = new Vuelta(new int[] { 20, 20,});
 
         // Tiempo inicial de referencia
         long initialTime = System.currentTimeMillis();
-		Carrera ato = new Carrera("Pedro", vuelta1, initialTime);
-		Carrera alo = new Carrera("Juan", vuelta2, initialTime);
-                Carrera ate = new Carrera("Beto", vuelta1, initialTime);
-		Carrera ale= new Carrera("Salvador", vuelta2, initialTime);
+       
+		Carrera ato = new Carrera("Pedro","salvador", relevo1, initialTime);
+		Carrera alo = new Carrera("Juan","beto", relevo2, initialTime );
+                //Carrera ate = new Carrera("Beto", vuelta1, initialTime);
+		//Carrera ale= new Carrera("Salvador", vuelta2, initialTime);
                 ato.start();
-                alo.start();
-                ate.start();
-                ale.start();
+                alo.start();  
+                //ate.start();
+                //ale.start();
                 
                 
 }
