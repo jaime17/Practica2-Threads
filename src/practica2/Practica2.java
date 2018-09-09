@@ -26,8 +26,8 @@ public class Practica2 {
        
 		Carrera ato = new Carrera("Pedro","salvador", relevo1, initialTime);
 		Carrera alo = new Carrera("Juan","beto", relevo2, initialTime );
-                Carrera ate = new Carrera("Miguel","Alvaro", vuelta1, initialTime);
-		Carrera ale= new Carrera("Rodrigo","Luis", vuelta2, initialTime);
+                Carrera ate = new Carrera("Miguel","Alvaro", relevo3, initialTime);
+		Carrera ale= new Carrera("Rodrigo","Luis", relevo4, initialTime);
                 ato.start();
                 alo.start();  
                 ate.start();
