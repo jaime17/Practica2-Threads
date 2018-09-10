@@ -93,8 +93,8 @@ public class Carrera extends Thread{
 		System.out.println("Los atletas " + this.nombre + " y " + this.nombre2 +  "han finalizado la carrera en el tiempo: " 
 						+ (System.currentTimeMillis() - this.initialTime) / 1000 
 						+ "segundos");
-                      }
-                     
+                      
+                }
         }
         
                 
